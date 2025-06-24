@@ -1,39 +1,11 @@
 import React from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import {
-  Search,
-  Sparkles,
-  Image,
-  Filter,
-  Grid,
-  List,
-  Menu,
-  Bell,
-  User,
-  Plus,
-  Heart,
-  Bookmark,
-  Zap,
-} from "lucide-react";
-import { logo } from "./assets";
-import { Home, CreatePost } from "./page";
+import { Plus, Zap } from "lucide-react";
 import HomePage from "./page/HomePage";
 import CreateImage from "./page/CreateImage";
 
 const App = () => (
   <BrowserRouter>
-    {/* <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
-      <Link to="/">
-        <img src={logo} alt="logo" className="w-28 object-contain" />
-      </Link>
-
-      <Link
-        to="/create-post"
-        className="font-inter font-medium bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-md"
-      >
-        Create
-      </Link>
-    </header> */}
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-200/50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
